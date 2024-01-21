@@ -1,6 +1,16 @@
-.home {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex - direction: column;
+
+import './home.css';
+import Header from '../component/head/header';
+import Main from '../component/main/main';
+
+function Home() {
+
+    return (
+        <div className="home">
+            <Header />
+            <Main />
+        </div>
+    );
 }
+
+export default Home;

@@ -1,6 +1,6 @@
 import './Main.css';
 import React from 'react';
-import Form from '../Main/component/form';
+import Form from './form';
 
 
 function Main() {

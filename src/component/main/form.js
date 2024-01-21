@@ -1,7 +1,7 @@
-import './Form.css';
+import './form.css';
 import { useState } from 'react';
-import api from '../../../../services/api';
-import Table from '../Table/Table'
+import api from '../../service/api';
+import Table from './table'
 
 function Form() {
     const [suppliers, setSuppliers] = useState([]);
