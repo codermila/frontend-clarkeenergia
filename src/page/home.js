@@ -1,9 +1,9 @@
 
 import './home.css';
 import Header from '../component/head/header';
-import Main from '../component/main/main';
+import Main from '../component/main/main'
 
-function Home() {
+function home() {
 
     return (
         <div className="home">
@@ -13,4 +13,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default home;

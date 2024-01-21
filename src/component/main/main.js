@@ -1,4 +1,4 @@
-import './Main.css';
+import './main.css';
 import React from 'react';
 import Form from './form';
 
